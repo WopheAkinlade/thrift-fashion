@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     margin: 0px;
     padding: 0px;
-    /* background-color: black; */
 }
 
 nav{
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0px;
     background-color: white;
     opacity: 0.7;
@@ -15,6 +20,7 @@ nav{
     align-items: center;
     backdrop-filter: blur(30px);
     box-shadow: 2px 2px 10px;
+    z-index: 1;
 }
 
 nav ul{
@@ -45,6 +51,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     height: 90vh;
+    flex-direction: column;
 }
 
 .blue-box{
@@ -62,4 +69,37 @@ nav a:hover{
     background-color:#0c2a38;
     color: white;
     padding: 10px 25px 10px 25px;
+}
+
+.offers-div{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 40px;
+}
+
+.indiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width:30%
+}
+
+.indiv p{
+    width: 70%;
+}
+
+.second-section{
+    padding-top: 30px;
+}
+
+.image-div{
+    display: grid;
+    padding: 0px 20px 0px 20px;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
