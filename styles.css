@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -19,6 +23,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
     box-shadow: 2px 2px 10px;
     z-index: 1;
 }
@@ -91,15 +96,30 @@ nav a:hover{
 
 .second-section{
     padding-top: 30px;
+    background-color: #eee;
 }
 
 .image-div{
+    margin-top: 35px;
     display: grid;
     padding: 0px 20px 0px 20px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     gap: 20px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+}
+
+
+
+.image-div *:hover{
+    cursor: pointer;
+}
+
+.third-section{
+    background-color:#69c5f0;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-section > div{
+    margin:auto;
 }
