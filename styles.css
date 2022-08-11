@@ -1,11 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 img{
-    max-width: 100%;
+    max-width: 70%;
+}
+
+.btn-start{
+    height: 7vh;
+    width:20vw;
+    border-radius: 20px;
+    outline-color: transparent;
+    border-color: transparent;
+    font-weight:400;
+    color: white;
+    background-color:rgb(26, 60, 128)
+}
+
+.btn-start:hover{
+    background-color:rgb(53, 77, 124)
 }
 
 body{
@@ -90,6 +104,14 @@ nav a:hover{
     width:30%
 }
 
+.about{
+    background-color: #aecdee;
+    display: flex;
+    padding-top: 60px;
+}
+
+
+
 .indiv p{
     width: 70%;
 }
@@ -97,6 +119,53 @@ nav a:hover{
 .second-section{
     padding-top: 30px;
     background-color: #eee;
+}
+
+.image{
+    width: 190vw;
+    height:10vh;
+}
+
+.about>div>h1{
+    font-size:70px;
+}
+
+.about--words{
+    margin-right: 20px;
+}
+
+.about>div>h3{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+    .about{
+        display: block;
+        padding-left: 30px;
+    }
+
+    .about>div>h3{
+        font-size: 30px;
+    }
+
+    .about>div>h1{
+        font-size:40px
+    }
+    .image img{
+        max-width: 100%;
+    }
+
+    .image{
+        padding-top: 50px;
+        width: 70vw;
+        height:3vh;
+    }
+}
+
+@media only screen and (min-width: 710px){
+    .about{
+        padding-left: 20px;
+    }
 }
 
 .image-div{
