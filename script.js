@@ -27,7 +27,6 @@ http.onload =function(){
         }
 
         document.querySelector(".products").innerHTML = output;
-        console.log(products)
     }
 }
 
