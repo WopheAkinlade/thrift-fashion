@@ -1,5 +1,10 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Pathway+Gothic+One&display=swap');
+
+
+.products--body{
     background-color:#eee;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-decoration: uppercase;
 }
 
 input{
@@ -12,10 +17,12 @@ input{
 
 .cart{
     margin-left: 30%;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 5px;
     width: 30%;
-    background-color: #0c2a38;
+    background-color: #eb8028;
+    height: 7vh;
+    border: none;
     color: white;
 }
 

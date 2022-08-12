@@ -153,14 +153,6 @@
         },
 
         {
-            "id":20,
-            "producType":"bag",
-            "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/74/160683/1.jpg?8402",
-            "price":92,
-            "gender":"female"
-        },
-
-        {
             "id":21,
             "producType":"wristWear",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/17/922359/1.jpg?2144",
@@ -334,6 +326,88 @@
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/094293/1.jpg?1711",
             "price":50,
             "gender":"male"
+        },
+
+        {
+            "id":41,
+            "producType":"shoe",
+            "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/20/1602941/1.jpg?6020",
+            "price":100,
+            "gender":"male"
+        },
+
+        {
+            "id":42,
+            "producType":"clothes",
+            "productsImages":"https://images.pexels.com/photos/2965276/pexels-photo-2965276.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":100,
+            "gender":"female"
+        },
+
+        {
+            "id":43,
+            "producType":"bag",
+            "productsImages":"https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":50,
+            "gender":"female"
+        },
+
+        {
+            "id":44,
+            "producType":"bag",
+            "productsImages":"https://images.pexels.com/photos/6310184/pexels-photo-6310184.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":126,
+            "gender":"female"
+        },
+
+        {
+            "id":45,
+            "producType":"bag",
+            "productsImages":"https://images.pexels.com/photos/12407293/pexels-photo-12407293.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":100,
+            "gender":"male"
+        },
+
+        {
+            "id":46,
+            "producType":"bag",
+            "productsImages":"https://images.pexels.com/photos/5591912/pexels-photo-5591912.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":50,
+            "gender":"female"
+        },
+
+        {
+            "id":47,
+            "producType":"wristWear",
+            "productsImages":"https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":36,
+            "gender":"male"
+        },
+
+        {
+            "id":48,
+            "producType":"wristWear",
+            "productsImages":"https://images.pexels.com/photos/1172848/pexels-photo-1172848.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":20,
+            "gender":"female"
+        },
+
+        {
+            "id":49,
+            "producType":"wristWear",
+            "productsImages":"https://images.pexels.com/photos/2010018/pexels-photo-2010018.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":30,
+            "gender":"male"
+        },
+
+        {
+            "id":50,
+            "producType":"clothes",
+            "productsImages":"https://images.pexels.com/photos/1030946/pexels-photo-1030946.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "price":76,
+            "gender":"female"
         }
+
+        
     
 ]
