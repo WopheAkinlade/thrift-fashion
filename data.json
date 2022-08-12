@@ -1,5 +1,5 @@
-{
-    "productsData":[
+[
+    
         {
             "id":1,
             "producType":"clothes",
@@ -335,5 +335,5 @@
             "price":50,
             "gender":"male"
         }
-    ]
-}
+    
+]
