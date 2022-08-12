@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300;400;500;700;800;900&display=swap');
+
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -6,6 +7,12 @@
 img{
     max-width: 70%;
 }
+
+.nav--list{
+    width:45%;
+}
+
+/* Styling of the About Page button */
 
 .btn-start{
     height: 7vh;
@@ -33,6 +40,7 @@ nav{
     top: 0px;
     background-color: white;
     opacity: 0.7;
+    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -103,13 +111,15 @@ nav a:hover{
     gap: 10px;
     width:30%
 }
-
+/* Colouring and position of the about background */
 .about{
-    background-color: #aecdee;
+    background-color: #ffffff;
+    /* background-image: linear-gradient(to right, #9ec8f5, #69a2de); */
     display: flex;
     padding-top: 60px;
 }
 
+/*  */
 
 
 .indiv p{
@@ -121,6 +131,7 @@ nav a:hover{
     background-color: #eee;
 }
 
+/* Size for the flexed image of the about Page */
 .image{
     width: 190vw;
     height:10vh;
@@ -131,17 +142,24 @@ nav a:hover{
 }
 
 .about--words{
-    margin-right: 20px;
+    margin-right: 90px;
+    width:95%;
 }
 
 .about>div>h3{
     font-size: 20px;
 }
 
+/* Media Query for the About Page */
+
 @media only screen and (max-width: 720px) {
     .about{
         display: block;
         padding-left: 30px;
+    }
+
+    .nav--list{
+        display:hidden;
     }
 
     .about>div>h3{
@@ -192,3 +210,98 @@ nav a:hover{
 .third-section > div{
     margin:auto;
 }
+
+/* Contact Us Styling */
+
+.contact--body{
+    /* background-image: url(/images/op.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:100vh;
+    width: 100%;
+    background-color:rgb(239, 227, 227)
+}
+
+.contact--detail{
+    max-width: 600px;
+    background-color: rgba(238, 238, 238, 0.343);
+    backdrop-filter: blur(40px);
+    width:85%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center
+}
+
+.products--body{
+    min-height: 100vh;
+    color: #69c5f0;
+}
+
+.products--body h1{
+    text-align: center;
+    margin-top:50px;
+    font-size: 38px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(358px, auto));
+    grid-gap: 58px;
+    margin: 58px auto;
+    max-width: 1240px;
+    padding: 28px;
+}
+
+.product{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    padding:10px;
+    
+}
+
+.form{
+    border: 1px solid #a9a9a9;
+    margin: 7px 0px;
+    padding:6px 20px;
+    border-radius:9px;
+}
+.contact--detail h1{
+    font-weight: 600;
+    margin: top 0px;
+}
+
+.form label{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align:left;
+}
+
+.form input, .form textarea{
+    width: 100%;
+    font-size: 19px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgba(246, 246, 246, 0.067);
+}
+
+.form input:focus{
+    background-color: transparent
+}
+
+.send--btn{
+    width:100%;
+    display:inline-block;
+    background-color: rgb(89, 233, 89);
+    padding: 14px 0px;
+    margin-top: 6px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-color: transparent;
+}
+

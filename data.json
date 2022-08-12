@@ -3,7 +3,7 @@
         {
             "id":1,
             "producType":"clothes",
-            "productsImages":"https://www.google.com/aclk?sa=l&ai=DChcSEwjWh72sp7z5AhUUstUKHT8YBm0YABAFGgJ3cw&sig=AOD64_0cJOkmAyuj7rbxaz77XVfXlhP1_w&adurl&ctype=5&ved=2ahUKEwjbm6-sp7z5AhUSzhoKHW1iAwYQvhd6BAgBEHY",
+            "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/41/053149/1.jpg?1910",
             "price":200,
             "gender":"male"
         },
@@ -11,7 +11,7 @@
         {
             "id":2,
             "producType":"clothes",
-            "productsImages":"https://www.google.com/aclk?sa=l&ai=DChcSEwjWh72sp7z5AhUUstUKHT8YBm0YABABGgJ3cw&sig=AOD64_2iaIrKbB_VTD4E3sCj0u__mWKsDg&adurl&ctype=5&ved=2ahUKEwjbm6-sp7z5AhUSzhoKHW1iAwYQvhd6BAgBEGw",
+            "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/80/713795/1.jpg?5525",
             "price":232,
             "gender":"male"
         },
@@ -90,7 +90,7 @@
 
         {
             "id":12,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/70/889717/1.jpg?5647",
             "price":23,
             "gender":"male"
@@ -98,7 +98,7 @@
 
         {
             "id":13,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/92/723337/1.jpg?4366",
             "price":290,
             "gender":"female"
@@ -106,7 +106,7 @@
 
         {
             "id":14,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/67/652627/1.jpg?3203",
             "price":42,
             "gender":"female"
@@ -114,7 +114,7 @@
 
         {
             "id":15,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/22/3583621/1.jpg?6476",
             "price":120,
             "gender":"male"
@@ -122,7 +122,7 @@
 
         {
             "id":16,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/85/550839/1.jpg?2725",
             "price":52,
             "gender":"female"
@@ -130,7 +130,7 @@
 
         {
             "id":17,
-            "productType":"bag",
+            "producType":"bag",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/89/239476/1.jpg?5730",
             "price":29,
             "gender":"female"
@@ -138,7 +138,7 @@
 
         {
             "id":18,
-            "productType":"bag",
+            "producType":"bag",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/00/8476411/1.jpg?8823",
             "price":42,
             "gender":"male"
@@ -146,7 +146,7 @@
 
         {
             "id":19,
-            "productType":"bag",
+            "producType":"bag",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/87/5167301/1.jpg?7673",
             "price":242,
             "gender":"male"
@@ -154,7 +154,7 @@
 
         {
             "id":20,
-            "productType":"bag",
+            "producType":"bag",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/74/160683/1.jpg?8402",
             "price":92,
             "gender":"female"
@@ -162,7 +162,7 @@
 
         {
             "id":21,
-            "productType":"wristWear",
+            "producType":"wristWear",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/17/922359/1.jpg?2144",
             "price":32,
             "gender":"male"
@@ -170,7 +170,7 @@
 
         {
             "id":22,
-            "productType":"wristWear",
+            "producType":"wristWear",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/10/219693/1.jpg?5724",
             "price":12,
             "gender":"female"
@@ -178,7 +178,7 @@
 
         {
             "id":23,
-            "productType":"wristWear",
+            "producType":"wristWear",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/33/173477/1.jpg?9286",
             "price":12,
             "gender":"female"
@@ -186,7 +186,7 @@
 
         {
             "id":24,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/79/070668/1.jpg?4413",
             "price":54,
             "gender":"male"
@@ -194,7 +194,7 @@
 
         {
             "id":25,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/32/465787/1.jpg?5760",
             "price":40,
             "gender":"female"
@@ -202,7 +202,7 @@
 
         {
             "id":26,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/21/745477/1.jpg?4448",
             "price":53,
             "gender":"female"
@@ -210,7 +210,7 @@
 
         {
             "id":27,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/98/068717/1.jpg?1070",
             "price":34,
             "gender":"female"
@@ -218,7 +218,7 @@
 
         {
             "id":28,
-            "productType":"shoe",
+            "producType":"shoe",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/887277/1.jpg?6906",
             "price":56,
             "gender":"male"
@@ -226,7 +226,7 @@
 
         {
             "id":29,
-            "productName":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/40/890334/1.jpg?1623",
             "price":42,
             "gender":"male"
@@ -234,7 +234,7 @@
 
         {
             "id":30,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/53/631417/1.jpg?6735",
             "price":52,
             "gender":"male"
@@ -242,7 +242,7 @@
 
         {
             "id":31,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/84/556818/1.jpg?3834",
             "price":57,
             "gender":"female"
@@ -250,7 +250,7 @@
 
         {
             "id":32,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/78/767678/1.jpg?3609",
             "price":60,
             "gender":"female"
@@ -258,7 +258,7 @@
 
         {
             "id":33,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/88/4156811/1.jpg?0400",
             "price":274,
             "gender":"female"
@@ -266,7 +266,7 @@
 
         {
             "id":34,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/55/6330241/1.jpg?0134",
             "price":342,
             "gender":"female"
@@ -274,7 +274,7 @@
 
         {
             "id":35,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/59/3553151/1.jpg?7450",
             "price":52,
             "gender":"female"
@@ -282,7 +282,7 @@
 
         {
             "id":36,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/00/461326/1.jpg?6428",
             "price":132,
             "gender":"male"
@@ -290,7 +290,7 @@
 
         {
             "id":36,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/72/277178/1.jpg?3849",
             "price":42,
             "gender":"male"
@@ -298,7 +298,7 @@
 
         {
             "id":37,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/72/277178/1.jpg?3849",
             "price":52,
             "gender":"male"
@@ -306,7 +306,7 @@
 
         {
             "id":38,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/27/4711931/1.jpg?9381",
             "price":300,
             "gender":"male"
@@ -314,7 +314,7 @@
 
         {
             "id":38,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/20/1602941/1.jpg?6020",
             "price":56,
             "gender":"male"
@@ -322,7 +322,7 @@
 
         {
             "id":39,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/78/7477931/1.jpg?1637",
             "price":80,
             "gender":"male"
@@ -330,7 +330,7 @@
 
         {
             "id":40,
-            "productType":"clothes",
+            "producType":"clothes",
             "productsImages":"https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/094293/1.jpg?1711",
             "price":50,
             "gender":"male"
