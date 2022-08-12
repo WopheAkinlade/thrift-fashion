@@ -15,7 +15,7 @@ http.onload =function(){
             output +=`
             <div class='product'>
                 <img src ="${item.productsImages}" alt="" >
-                <h3 class ="title">Item Type: ${item.producType}</h3>
+                <h4 class ="title">Item Type: ${item.producType}</h4>
                 <p class ="gender">Category: ${item.gender}</p>
                 <p class ="price">
                     <span>Price: ${item.price}</span>
