@@ -10,16 +10,22 @@
   </head>
   <body class="products--body">
     <h1 class="heading">Check out our products</h1>
-    <div style="display: flex; justify-content: center; align-items: center;">
+    <form style="display: flex; justify-content: center; align-items: center;">
+
       <input
         type="search"
-        placeholder="Enter your search query"
+        placeholder="Search product category "
         name="search"
-        id="search"
+        onkeyup="searchBar()"
+        id="searchProduct"
       />
+    </form>
+    <div class="products" id = 'product-list'>
+
     </div>
-    <div class="products"></div>
 
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- products==product-list,  -->

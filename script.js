@@ -15,7 +15,7 @@ http.onload =function(){
             output +=`
             <div class='product'>
                 <img src ="${item.productsImages}" alt="" >
-                <p class ="title">Item Type: ${item.producType}</p>
+                <h3 class ="title">Item Type: ${item.producType}</h3>
                 <p class ="gender">Category: ${item.gender}</p>
                 <p class ="price">
                     <span>Price: ${item.price}</span>
@@ -27,6 +27,28 @@ http.onload =function(){
         }
 
         document.querySelector(".products").innerHTML = output;
+    }
+}
+
+const searchBar = () =>{
+    const searchPlace = document.getElementById("searchProduct").value.toUpperCase();
+    const storeBar = document.getElementById("product-list");
+    const productItems = document.querySelectorAll(".product");
+    const searchedItem = storeBar.getElementsByTagName("h3");
+
+    for(var i = 0; i < searchedItem.length; i++){
+        let matchProduct = productItems[i].getElementsByTagName('h3')[0];
+
+        if(matchProduct){
+            let valueOfSearch = matchProduct.textContent || matchProduct.innerHTML
+
+            if(valueOfSearch.toUpperCase().indexOf(searchPlace) > -1){
+                productItems[i].style.display = "";
+
+            } else {
+                productItems[i].style.display = "none";
+            }
+        }
     }
 }
 
