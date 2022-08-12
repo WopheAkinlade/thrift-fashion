@@ -34,10 +34,10 @@ const searchBar = () =>{
     const searchPlace = document.getElementById("searchProduct").value.toUpperCase();
     const storeBar = document.getElementById("product-list");
     const productItems = document.querySelectorAll(".product");
-    const searchedItem = storeBar.getElementsByTagName("h3");
+    const searchedItem = storeBar.getElementsByTagName("h4");
 
     for(var i = 0; i < searchedItem.length; i++){
-        let matchProduct = productItems[i].getElementsByTagName('h3')[0];
+        let matchProduct = productItems[i].getElementsByTagName('h4')[0];
 
         if(matchProduct){
             let valueOfSearch = matchProduct.textContent || matchProduct.innerHTML

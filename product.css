@@ -1,3 +1,7 @@
+body{
+    background-color:#eee;
+}
+
 input{
     width: 30vw;
     margin: auto;
@@ -7,5 +11,14 @@ input{
 }
 
 .cart{
-    margin: auto;
+    margin-left: 30%;
+    border-radius: 30px;
+    padding: 5px;
+    width: 30%;
+    background-color: #0c2a38;
+    color: white;
+}
+
+img{
+    margin-left: 20%;
 }
