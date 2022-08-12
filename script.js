@@ -15,10 +15,10 @@ http.onload =function(){
             output +=`
             <div class='product'>
                 <img src ="${item.productsImages}" alt="" >
-                <p class ="title">${item.producType}</p>
-                <p class ="gender">${item.gender}</p>
+                <p class ="title">Item Type: ${item.producType}</p>
+                <p class ="gender">Category: ${item.gender}</p>
                 <p class ="price">
-                    <span>${item.price}</span>
+                    <span>Price: ${item.price}</span>
                     <span>&euro;</span>
                 </p>
                 <button class='cart'>Add to cart</button>
