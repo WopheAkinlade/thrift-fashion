@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
-img{
-    max-width: 100%;
-}
-
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
 
-nav{
+nav {
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0px;
     background-color: white;
     opacity: 0.7;
@@ -28,13 +24,13 @@ nav{
     z-index: 1;
 }
 
-nav ul{
+nav ul {
     width: 20%;
     display: flex;
     justify-content: space-evenly;
 }
 
-nav li{
+nav li {
     list-style: none;
 }
 
@@ -43,11 +39,13 @@ nav a {
     color: inherit;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: underline;
 }
-
-.first-section{
+.menu{
+    display: none;
+}
+.first-section {
     background-image: url("./wallperShoe.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
@@ -59,7 +57,7 @@ nav a:hover{
     flex-direction: column;
 }
 
-.blue-box{
+.blue-box {
     width: 35%;
     margin: auto;
     background-color: #69c5f04b;
@@ -68,38 +66,39 @@ nav a:hover{
     border-radius: 12px;
 }
 
-.blue-box button{
+.blue-box button {
     border-radius: 30px;
     border: none;
-    background-color:#0c2a38;
+    background-color: #0c2a38;
     color: white;
     padding: 10px 25px 10px 25px;
 }
 
-.offers-div{
+.offers-div {
     display: flex;
     justify-content: space-between;
-    height: 100px;
     padding-left: 40px;
 }
 
-.indiv{
+.indiv {
     display: flex;
     align-items: center;
     gap: 10px;
-    width:30%
+    width: 30%
 }
 
-.indiv p{
+.indiv p {
     width: 70%;
 }
 
-.second-section{
+.second-section {
+    margin-top: 10px;
     padding-top: 30px;
     background-color: #eee;
+    padding-bottom: 30px;
 }
 
-.image-div{
+.image-div {
     margin-top: 35px;
     display: grid;
     padding: 0px 20px 0px 20px;
@@ -107,19 +106,122 @@ nav a:hover{
     gap: 20px;
 }
 
-
-
-.image-div *:hover{
+.image-div *:hover {
     cursor: pointer;
 }
 
-.third-section{
-    background-color:#69c5f0;
-    height: 50vh;
+.third-section {
+    text-align: center;
+    background-color: #b9ccf3;
+    padding-bottom: 0px;
     display: flex;
     justify-content: space-around;
 }
 
-.third-section > div{
-    margin:auto;
+@media only screen and (max-width: 900px) {
+
+    /* tablets */
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .indiv {
+        width: 100%;
+    }
+
+    .offers-div {
+        display: block;
+    }
+
+    .image-div {
+        grid-template-columns: auto;
+    }
+
+    .second-section {
+        padding-top: 100px;
+    }
+
+    .third-section img {
+        display: none;
+    }
+
+    .sub-div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .indiv {
+        width: 100%;
+    }
+
+    .offers-div {
+        display: block;
+    }
+
+    .image-div {
+        grid-template-columns: auto;
+    }
+
+    .second-section {
+        padding-top: 100px;
+    }
+
+    .third-section img {
+        display: none;
+    }
+
+    .sub-div {
+        width: 100%;
+    }
+}
+
+.sub-div {
+    margin: auto;
+    width: 35%;
+}
+
+.third-section img {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.third-section button {
+    border-radius: 30px;
+    border: none;
+    background-color: #0c2a38;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 1em;
 }
