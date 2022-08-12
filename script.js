@@ -14,7 +14,7 @@ http.onload =function(){
         for (let item of products){
             output +=`
             <div class='product'>
-                <img src ="${item.productsImages}" alt="" >
+                <img src ="${item.productsImages}" alt="${item.producType}" >
                 <p class ="title">Item Type: ${item.producType}</p>
                 <p class ="gender">Category: ${item.gender}</p>
                 <p class ="price">
